@@ -50,6 +50,7 @@ class LinkedList:
         else:
             # recurse
             self.reverse_list(node.next_node, node)
+            # set next node to prev for more than 1 node
             node.next_node = prev 
             
 
